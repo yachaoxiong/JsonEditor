@@ -1,3 +1,7 @@
+<h1>JSON EDITOR</h1>
+<div>------------------------------------------------------------------------------------------</div>
+<p>An Online JSON Editor to help you view and edit your json with the help of a treeview to visualize your data.</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,49 @@
+body {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+.boldStyle {
+  font-weight: bold;
+}
+.p5 {
+  padding: 5;
+}
+.pl5 {
+  padding-left: 5;
+}
+.pl12 {
+  padding-left: 12;
+}
+.ml6 {
+  margin-left: 6;
+}
+.colorWhite {
+  color: rgb(255, 255, 255) !important;
+}
+.colorGray {
+  color: gray;
+}
+
+.appContainer {
+  padding: 20px 20px 20px 60px;
+}
+
+.collapseIcon:hover,
+mainCollapseIcon:hover {
+  cursor: pointer;
+}
+.collapseIcon {
+  font-size: 16px !important;
+  color: #3c8dad;
+  margin-top: 5px;
+}
+.mainCollapseIcon {
+  font-size: 16px !important;
+  color: #525252;
+  margin-top: 5px;
+}
+.JsonTree {
+  text-align: left;
+  padding-left: 36px;
+}
