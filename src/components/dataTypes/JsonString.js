@@ -68,7 +68,9 @@ const Str = ({ value, dataKey, dataType, onEdit, onDelete }) => {
               </IconButton>
             </span>
           ) : (
-            <span onClick={showEditInput}>{currentValue}</span>
+            <span className='JsonValue' onClick={showEditInput}>
+              {currentValue}
+            </span>
           )}
         </span>
         <span>"</span>
