@@ -1,12 +1,19 @@
 <h1>JSON EDITOR</h1>
-<h2>Summary<h2/>
+<h2>Summary</h2>
 <p>An Online JSON Editor that can help you view and edit with a nice treeview.</p>
-<h2>Feature<h2/>
+<h2>Feature</h2>
 <ul style={display:flex}>
 <li>expand/collapse the JSON tree</li>
 <li>remove/edit nodes</li>
 <li>type of each node</li>
 <li>type of each node</li>
+</ul>
+<h2>More Features that I'd like to implement</h2>
+<ul style={display:flex}>
+<li>add new nodes</li>
+<li>copy feature</li>
+<li>Export and Import</li>
+<li>...</li>
 </ul>
 <a href="https://yachao.vercel.app/"/>
 # Getting Started with Create React App
