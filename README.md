@@ -1,27 +1,30 @@
 <h1>JSON EDITOR</h1>
 <h2>Summary</h2>
 <p>An Online JSON Editor that can help you view and edit with a nice treeview.</p>
+<h2>Here is the <a href="https://yachao.vercel.app/">demo</a></h2>
 <h2>Feature</h2>
-<ul style={display:flex}>
+<ul style={display:flex;color:blue}>
 <li>expand/collapse the JSON tree</li>
 <li>remove/edit nodes</li>
 <li>type of each node</li>
-<li>type of each node</li>
+<li>enter new resource</li>
 </ul>
 <h2>More Features that I'd like to implement</h2>
 <ul style={display:flex}>
 <li>add new nodes</li>
 <li>copy feature</li>
 <li>Export and Import</li>
-<li>...</li>
+<p>...</p>
 </ul>
-<a href="https://yachao.vercel.app/"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
+<h3>Download the project</h3>
+<a href="https://github.com/yachaoxiong/JsonEditor/archive/refs/heads/main.zip">Download</a>
 In the project directory, you can run:
 
 ### `npm start`

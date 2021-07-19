@@ -22,9 +22,12 @@ const JsonTree = () => {
   //update current resource
   const updateDataSource = async (URL) => {
     try {
-      const result = await axios.get(URL);
-      setCurrentResource(result.data);
+      if (URL) {
+        const result = await axios.get(URL);
+        setCurrentResource(result.data);
+      }
     } catch (e) {
+      console.log(e);
       setShowError(true);
       setTimeout(() => {
         setShowError(false);
@@ -62,7 +65,7 @@ const JsonTree = () => {
   };
 
   return (
-    <div className='appContainer'>
+    <div className='appContainer' data-testid='Json-tree'>
       <Searchbar updateDataSource={updateDataSource} />
       {sendErrorMessage()}
       <DataDetails

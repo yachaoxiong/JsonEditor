@@ -3,8 +3,9 @@ import { Button, TextField } from '@material-ui/core';
 const Searchbar = ({ updateDataSource }) => {
   const [URL, setURL] = useState('');
   return (
-    <div>
+    <div data-testid='searchBar-1'>
       <TextField
+        data-testid='text-1'
         label='Data URL'
         id='outlined-margin-dense'
         margin='dense'
@@ -14,6 +15,7 @@ const Searchbar = ({ updateDataSource }) => {
       />
 
       <Button
+        data-testid='btn-1'
         style={{
           margin: '10px 10px 20px 20px',
           background: '#FF7600',
