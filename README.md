@@ -1,22 +1,26 @@
-<h1>JSON EDITOR</h1>
-<h2>Summary</h2>
-<p>An Online JSON Editor that can help you view and edit with a nice treeview.</p>
-<h2>Here is the <a href="https://json-treeview.vercel.app/">demo</a></h2>
-<img src="./public/React-App.png">
-<h2>Feature</h2>
-<ul >
-<li>expand/collapse the JSON tree</li>
-<li>remove/edit nodes</li>
-<li>type of each node</li>
-<li>enter new resource</li>
-</ul>
-<h2>More Features that I'd like to implement</h2>
-<ul >
-<li>add new nodes</li>
-<li>copy feature</li>
-<li>Export and Import</li>
-<p>...</p>
-</ul>
+# JSON EDITOR
+
+## Summary
+
+_An Online JSON Editor that can help you view and edit with a nice treeview._
+
+## Here is the [demo](https://json-treeview.vercel.app/)
+
+![alt text](./public/React-App.png)
+
+## Feature
+
+- [x] expand/collapse the JSON tree
+- [x] remove/edit nodes
+- [x] type of each node
+- [x] enter new resource
+
+## More Features that I'd like to implement
+
+- add new nodes
+- copy feature
+- Export and Import
+  ...
 
 # Getting Started with Create React App
 
@@ -24,8 +28,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-<h3>Download the project</h3>
-<a href="https://github.com/yachaoxiong/JsonEditor/archive/refs/heads/main.zip">Download</a>
+### Download the project
+
+[Download](https://github.com/yachaoxiong/JsonEditor/archive/refs/heads/main.zip).
+
 In the project directory, you can run:
 
 ### `npm start`
