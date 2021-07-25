@@ -11,6 +11,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import { Button } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -160,7 +161,7 @@ const Navbar = () => {
       <AppBar position='static' style={{ background: '#2a2a72' }}>
         <Toolbar>
           <Typography className={classes.title} variant='h6' noWrap>
-            JSON EDITOR
+            JSON Viewer
           </Typography>
           <div className={classes.search}></div>
           <div className={classes.grow} />
@@ -175,10 +176,11 @@ const Navbar = () => {
                 )
               }
             >
-              Developed by Yachao
+              <GitHubIcon />{' '}
+              <span style={{ marginLeft: '5px' }}>Developed by Yachao</span>
             </Button>
 
-            <IconButton
+            {/* <IconButton
               edge='end'
               aria-label='account of current user'
               aria-controls={menuId}
@@ -187,7 +189,7 @@ const Navbar = () => {
               color='inherit'
             >
               <AccountCircle />
-            </IconButton>
+            </IconButton> */}
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
