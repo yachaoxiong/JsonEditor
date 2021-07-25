@@ -170,15 +170,11 @@ const Navbar = () => {
               size='small'
               className='colorWhite'
               onClick={() =>
-                window.open(
-                  'https://json-treeview.vercel.app/',
-                  '_blank',
-                  'noreferrer'
-                )
+                window.open('https://github.com/yachaoxiong', '_blank')
               }
             >
-              <GitHubIcon />{' '}
-              <span style={{ marginLeft: '5px' }}>Developed by Yachao</span>
+              <GitHubIcon />
+              <span style={{ marginLeft: '10px' }}>Developed by Yachao</span>
             </Button>
 
             {/* <IconButton
