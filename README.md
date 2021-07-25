@@ -20,7 +20,7 @@ _An Online JSON Editor that can help you view and edit with a nice treeview._
 - add new nodes
 - copy feature
 - Export and Import
-  ...
+- ...
 
 # Getting Started with Create React App
 
