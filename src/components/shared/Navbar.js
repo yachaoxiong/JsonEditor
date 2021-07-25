@@ -9,7 +9,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import AccountCircle from '@material-ui/icons/AccountCircle';
+// import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Button } from '@material-ui/core';
@@ -171,8 +171,9 @@ const Navbar = () => {
               className='colorWhite'
               onClick={() =>
                 window.open(
-                  'https://www.npmjs.com/package/js-json-tree',
-                  '_blank'
+                  'https://json-treeview.vercel.app/',
+                  '_blank',
+                  'noreferrer'
                 )
               }
             >
