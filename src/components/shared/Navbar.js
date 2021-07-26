@@ -170,7 +170,10 @@ const Navbar = () => {
               size='small'
               className='colorWhite'
               onClick={() =>
-                window.open('https://github.com/yachaoxiong', '_blank')
+                window.open(
+                  'https://www.npmjs.com/package/js-json-tree',
+                  '_blank'
+                )
               }
             >
               <GitHubIcon />
