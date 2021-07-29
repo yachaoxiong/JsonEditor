@@ -4,7 +4,7 @@ import DataLabel from './DataLabel';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
-import CancelIcon from '@material-ui/icons/Cancel';
+// import CancelIcon from '@material-ui/icons/Cancel';
 import _ from 'lodash';
 const JsonObject = ({ value, dataKey, dataType, onDelete }) => {
   const [col, setCol] = useState(true);
@@ -68,7 +68,7 @@ const JsonObject = ({ value, dataKey, dataType, onDelete }) => {
                 component='span'
                 // onClick={cancelEdit}
               >
-                <CancelIcon />
+                {/* <CancelIcon /> */}
               </IconButton>
             </span>
             <DataLabel type={dataType} />
